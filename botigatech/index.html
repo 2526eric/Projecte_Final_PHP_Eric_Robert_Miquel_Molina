@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+    index.html - Portada pública de BotigaTech.
+    És una pàgina HTML normal (sense PHP): serveix de benvinguda
+    i porta l'usuari al login o al registre.
+-->
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BotigaTech - Botiga online de components d'informàtica</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">BotigaTech</a>
+        <div class="ms-auto d-flex gap-2">
+            <a class="btn btn-outline-light btn-sm" href="login.php">Inicia sessió</a>
+            <a class="btn btn-primary btn-sm" href="registre.php">Registra't</a>
+        </div>
+    </div>
+</nav>
+
+<main class="container py-4">
+
+    <section class="portada p-5 mb-4 text-center">
+        <h1 class="display-5 fw-bold">BotigaTech</h1>
+        <p class="lead mb-4">Tot el que necessites per muntar o millorar el teu ordinador: processadors, targetes gràfiques, memòria, discs i perifèrics.</p>
+        <a class="btn btn-light btn-lg me-2" href="login.php">Entra a la botiga</a>
+        <a class="btn btn-outline-light btn-lg" href="registre.php">Crea un compte</a>
+    </section>
+
+    <section class="row g-4">
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h2 class="h5">Catàleg amb cercador</h2>
+                    <p class="mb-0">Busca per nom o marca, filtra per categoria i preu, i ordena els productes com vulguis.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h2 class="h5">Cistella i comandes</h2>
+                    <p class="mb-0">Afegeix productes a la cistella, confirma la comanda i consulta'n l'estat quan vulguis.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h2 class="h5">Valoracions</h2>
+                    <p class="mb-0">Mira l'opinió d'altres clients i valora amb estrelles els productes que has provat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="peu bg-dark text-light py-3 mt-4">
+    <div class="container text-center small">
+        BotigaTech &middot; Projecte final PHP &middot; Botiga online de components d'informàtica
+    </div>
+</footer>
+
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

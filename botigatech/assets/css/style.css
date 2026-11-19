@@ -1,0 +1,24 @@
+/* Estils propis de BotigaTech (a sobre de Bootstrap) */
+
+/* El peu de pàgina queda sempre a baix encara que hi hagi poc contingut */
+html, body { height: 100%; }
+body { display: flex; flex-direction: column; background-color: #f5f6f8; }
+main { flex: 1 0 auto; }
+.peu { flex-shrink: 0; }
+
+/* Targetes de producte */
+.targeta-producte { transition: transform .15s, box-shadow .15s; }
+.targeta-producte:hover { transform: translateY(-3px); box-shadow: 0 .5rem 1rem rgba(0,0,0,.12); }
+.imatge-producte { height: 190px; object-fit: contain; background: #fff; padding: .75rem; }
+
+/* Estrelles de les valoracions */
+.estrelles { color: #f5a623; letter-spacing: 2px; }
+
+/* Imatge gran de la pàgina d'un producte */
+.imatge-detall { max-height: 360px; object-fit: contain; background: #fff; padding: 1rem; }
+
+/* Miniatura de les taules d'administració */
+.miniatura { width: 48px; height: 48px; object-fit: contain; background: #fff; border: 1px solid #dee2e6; border-radius: .25rem; }
+
+/* Portada (index.html) */
+.portada { background: linear-gradient(135deg, #212529 0%, #0d6efd 100%); color: #fff; border-radius: .5rem; }

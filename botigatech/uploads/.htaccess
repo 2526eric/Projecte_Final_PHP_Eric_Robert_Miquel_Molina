@@ -1,0 +1,5 @@
+# Dins d'aquesta carpeta (imatges pujades pels usuaris) no es pot executar codi PHP.
+# Així, encara que algú aconseguís pujar un fitxer .php, no s'executaria.
+<FilesMatch "\.(php|phtml|php3|php4|php5|phps)$">
+    Require all denied
+</FilesMatch>
