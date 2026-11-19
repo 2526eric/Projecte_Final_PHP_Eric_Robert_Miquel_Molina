@@ -2,7 +2,7 @@
  BOTIGATECH - Projecte Final Lliure (PHP)
 ============================================================
 
-Autors: Eric i Miquel Molina
+Autors: Èric Robert i Miquel Molina
 Cicle: ASIX - ITIC Barcelona
 
 ------------------------------------------------------------
